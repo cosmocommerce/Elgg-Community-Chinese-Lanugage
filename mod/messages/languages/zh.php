@@ -83,7 +83,7 @@ $chinese = array(
 	 'messages:notdeleted'  =>  "抱歉，我们无法删除本消息。" , 
 	 'messages:nopermission'  =>  "您没有权限删除该消息。" , 
 	 'messages:nomessages'  =>  "没有消息可以显示。" , 
-	 'messages:user:nonexist'  =>  "我们没有在数据库中找到收件者的信息。"
+	 'messages:user:nonexist'  =>  "我们没有在数据库中找到收件者的信息。",
 	 'messages:user:blank' => "请选择需要发送消息的用户。",
 ); 
 

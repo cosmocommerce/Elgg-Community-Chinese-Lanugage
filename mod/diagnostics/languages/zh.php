@@ -16,7 +16,7 @@
  * @category	CosmoCommerce
  * @package 	CosmoCommerce_Elgg_Language
  * @copyright	Copyright (c) 2009 Elgg.Org.cn(http://www.elgg.org.cn)	CosmoCommerce,LLC. (http://www.cosmocommerce.com)
- * @version: 0.3
+ * @version: 0.4
  * @contact :
  * Author: CosmoMao airforce.e@gmail.com
  * T: +86-021-66346672
@@ -31,6 +31,11 @@
 	
 			'diagnostics:description' => '下列诊断报告适用任何Elgg的问题.可以被作为提交bug报告的文件附件.',
 			'diagnostics:unittester:description' => '以下注册插件的诊断测试将根据Elgg框架的调试部分来执行.',
+
+			'diagnostics:unittester:description' => '单元测试检查Elgg Core 的错误和API问题.',
+			'diagnostics:unittester:debug' => '要运行单元测试，站点必须运行于Debug调试模式.',
+			'diagnostics:unittester:warning' => '警告: 这些测试可能会留下调试对象在您的数据库中。请不要在生产环境中使用本功能！',
+
 	
 			'diagnostics:test:executetest' => '执行测试',
 			'diagnostics:test:executeall' => '执行所有',

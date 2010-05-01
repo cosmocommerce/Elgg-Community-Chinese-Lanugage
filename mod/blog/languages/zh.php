@@ -16,7 +16,7 @@
  * @category	CosmoCommerce
  * @package 	CosmoCommerce_Elgg_Language
  * @copyright	Copyright (c) 2009 Elgg.Org.cn(http://www.elgg.org.cn)	CosmoCommerce,LLC. (http://www.cosmocommerce.com)
- * @version: 0.3
+ * @version: 0.4
  * @contact :
  * Author: CosmoMao airforce.e@gmail.com
  * T: +86-021-66346672
@@ -61,6 +61,14 @@
 	
 			'blog:preview:description' => '这篇日志未保存仅供预览.',
 			'blog:preview:description:link' => '点击这里继续编辑或保存日志',
+			'blog:enableblog' => '开启小组博客',
+	
+			'blog:group' => '小组博客',
+
+		'blog:widget:description' => '本插件显示最新的博客日志.',
+		'blog:moreblogs' => '更多文章',
+		'blog:numbertodisplay' => '显示博客文章数量',
+		
 			
          /**
 	     * Blog river

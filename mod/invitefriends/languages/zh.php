@@ -16,7 +16,7 @@
  * @category	CosmoCommerce
  * @package 	CosmoCommerce_Elgg_Language
  * @copyright	Copyright (c) 2009 Elgg.Org.cn(http://www.elgg.org.cn)	CosmoCommerce,LLC. (http://www.cosmocommerce.com)
- * @version: 0.3
+ * @version: 0.4
  * @contact :
  * Author: CosmoMao airforce.e@gmail.com
  * T: +86-021-66346672
@@ -32,6 +32,7 @@
 		'invitefriends:subject' => '邀请您加入 %s',
 	
 		'invitefriends:success' => '您的好友邀请已经发出.',
+		'invitefriends:email_error' => '邀请已经发出，但是以下邮件地址不正确: %s',
 		'invitefriends:failure' => '您的好友邀请未发出.',
 	
 		'invitefriends:message:default' => '

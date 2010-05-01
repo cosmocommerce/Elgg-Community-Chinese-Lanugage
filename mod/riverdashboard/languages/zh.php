@@ -16,7 +16,7 @@
  * @category	CosmoCommerce
  * @package 	CosmoCommerce_Elgg_Language
  * @copyright	Copyright (c) 2009 Elgg.Org.cn(http://www.elgg.org.cn)	CosmoCommerce,LLC. (http://www.cosmocommerce.com)
- * @version: 0.3
+ * @version: 0.4
  * @contact :
  * Author: CosmoMao airforce.e@gmail.com
  * T: +86-021-66346672
@@ -42,6 +42,8 @@
 		'sitemessages:river:create' => "发布了一条新的整站消息",
 		'sitemessages:add' => "添加一条新的整站消息",
 		'sitemessage:deleted' => "整站消息删除",
+		'sitemessage:error' => "保存站点信息错误.",
+		
 		
 		'river:widget:noactivity' => '目前没有活动.',
 		'river:widget:title' => "活动",
@@ -53,6 +55,9 @@
 		'river:widget:label:displaynum' => "每页显示条目:",
 		'river:widget:type' => "显示自己的活动,还是现实好友的活动?",
 		'item:object:sitemessage' => "整站消息",
+		'riverdashboard:avataricon' => "是否想让用户头像或者图标作为站点活动显示?",
+		'option:icon' => '图标',
+		'option:avatar' => '头像',
 	);
 					
 	add_translation("zh",$chinese);

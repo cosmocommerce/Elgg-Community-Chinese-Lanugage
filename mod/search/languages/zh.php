@@ -16,7 +16,7 @@
  * @category	CosmoCommerce
  * @package 	CosmoCommerce_Elgg_Language
  * @copyright	Copyright (c) 2009 Elgg.Org.cn(http://www.elgg.org.cn)	CosmoCommerce,LLC. (http://www.cosmocommerce.com)
- * @version: 0.3
+ * @version: 0.4
  * @contact :
  * Author: CosmoMao airforce.e@gmail.com
  * T: +86-021-66346672
@@ -24,22 +24,22 @@
  * M:sales@cosmocommerce.com
  * GIT:http://github.com/cosmocommerce/Elgg-Community-Chinese-Lanugage/
  */
-	$chinese = array(
-	
-		/**
-		 * Manifest
-		 */
-		
-	
-		'river:widget:noactivity' => 'æˆ‘ä»¬æ²¡æ‰¾åˆ°æœ€æ–°æ´»åŠ¨ã€‚',
-		'river:widget:title' => "æ´»åŠ¨",
-		'river:widget:description' => "æ˜¾ç¤ºæ‚¨æœ€æ–°çš„æ´»åŠ¨ã€‚",
-		'river:widget:title:friends' => "å¥½å‹æ´»åŠ¨",
-		'river:widget:description:friends' => "æ˜¾ç¤ºæ‚¨çš„å¥½å‹ç›®å‰åœ¨å¹²å˜›",
-	
-		'river:widget:label:displaynum' => "æ˜¾ç¤ºæ¡ç›®æ•°é‡ï¼š",
-	);
-					
-	add_translation("zh",$chinese);
+$chinese = array(
+	'search:enter_term' => 'ÊäÈëËÑË÷¹Ø¼ü×Ö:',
+	'search:no_results' => 'Ã»ÓĞÕÒµ½½á¹û.',
+	'search:matched' => 'Æ¥Åä: ',
+	'search:results' => '%s µÄ½á¹û',
+	'search:no_query' => 'ÇëÊäÈë²éÑ¯À´ËÑË÷.',
+	'search:search_error' => '´íÎó',
 
-?>
+	'search:more' => '%s ÌõÒÔÉÏ %s',
+
+	'search_types:tags' => '±êÇ©',
+
+	'search_types:comments' => 'ÆÀÂÛ',
+	'search:comment_on' => '"%s" µÄÆÀÂÛ',
+	'search:comment_by' => 'ÓÉ',
+	'search:unavailable_entity' => 'ÎŞĞ§ÊµÌå',
+);
+
+add_translation('zh', $chinese);

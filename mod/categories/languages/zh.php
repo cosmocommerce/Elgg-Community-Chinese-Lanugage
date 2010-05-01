@@ -16,7 +16,7 @@
  * @category	CosmoCommerce
  * @package 	CosmoCommerce_Elgg_Language
  * @copyright	Copyright (c) 2009 Elgg.Org.cn(http://www.elgg.org.cn)	CosmoCommerce,LLC. (http://www.cosmocommerce.com)
- * @version: 0.3
+ * @version: 0.4
  * @contact :
  * Author: CosmoMao airforce.e@gmail.com
  * T: +86-021-66346672
@@ -28,7 +28,8 @@ $chinese = array(
 	 'categories'  =>  "分类" , 
 	 'categories:settings'  =>  "站点分类" , 
 	 'categories:explanation'  =>  "输入整站预定义的分类" , 
-	 'categories:save:success'  =>  "站点分类成功保存好了"
+	 'categories:save:success'  =>  "站点分类成功保存好了", 
+		'categories:results' => "站点分类成功保存的结果: %s",
 ); 
 
 add_translation('zh', $chinese); 
